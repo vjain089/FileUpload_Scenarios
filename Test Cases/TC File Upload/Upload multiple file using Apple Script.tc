@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload multiple file using Apple Script</name>
+   <tag>sanity</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c0b59b6-98af-489b-86af-ed3a1ff8e811</testCaseGuid>
+</TestCaseEntity>

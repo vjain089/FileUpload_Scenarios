@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload a file using Robot Class - Different OS</name>
+   <tag>sanity</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>624ef448-c5d7-44a1-8c59-fc6def9c5c4d</testCaseGuid>
+</TestCaseEntity>

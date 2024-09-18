@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload multiple file using Apple Script 2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9d1bda8-8d91-471e-8585-5c4aa85cc1cf</testCaseGuid>
+</TestCaseEntity>

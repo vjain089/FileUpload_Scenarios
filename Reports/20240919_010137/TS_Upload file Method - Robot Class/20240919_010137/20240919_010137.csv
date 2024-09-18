@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file Method - Robot Class,,,,19-09-2024 01:01:43,19-09-2024 01:01:54,11.312s,PASSED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/File_Upload by Robot class- Diff OS,,,,19-09-2024 01:01:43,19-09-2024 01:01:54,11.235s,PASSED
+dirName = getProjectDir(),,,,19-09-2024 01:01:43,19-09-2024 01:01:43,0.012s,PASSED
+"println(""Project Directory: "" + dirName)",,,,19-09-2024 01:01:43,19-09-2024 01:01:43,0.005s,PASSED
+file = new java.io.File((dirName + /MyTestFile/TestData.xlsx)),,,,19-09-2024 01:01:43,19-09-2024 01:01:43,0.003s,PASSED
+stringSelection = new java.awt.datatransfer.StringSelection(file.getAbsolutePath()),,,,19-09-2024 01:01:43,19-09-2024 01:01:43,0.009s,PASSED
+clipboard = getDefaultToolkit().getSystemClipboard(),,,,19-09-2024 01:01:43,19-09-2024 01:01:43,0.051s,PASSED
+"clipboard.setContents(stringSelection, null)",,,,19-09-2024 01:01:43,19-09-2024 01:01:43,0.146s,PASSED
+"println(System.getProperty(""os.name""))",,,,19-09-2024 01:01:43,19-09-2024 01:01:43,0.005s,PASSED
+"if (name"").contains(""Mac OS X""))",,,,19-09-2024 01:01:43,19-09-2024 01:01:54,10.719s,PASSED

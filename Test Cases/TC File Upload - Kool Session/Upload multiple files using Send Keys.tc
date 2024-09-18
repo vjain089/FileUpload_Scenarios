@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload multiple files using Send Keys</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d278ded-f09f-4ea5-a640-5b14adf732cf</testCaseGuid>
+</TestCaseEntity>

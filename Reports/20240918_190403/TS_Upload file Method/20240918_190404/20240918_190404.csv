@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file Method,Chrome 128.0.0.0,,,18-09-2024 19:04:06,18-09-2024 19:04:45,38.442s,PASSED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword,Chrome 128.0.0.0,,,18-09-2024 19:04:06,18-09-2024 19:04:28,21.824s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,18-09-2024 19:04:06,18-09-2024 19:04:09,2.132s,PASSED
+"navigateToUrl(""http://demo.guru99.com/test/upload/"")",Chrome 128.0.0.0,,,18-09-2024 19:04:09,18-09-2024 19:04:11,2.618s,PASSED
+delay(5),Chrome 128.0.0.0,,,18-09-2024 19:04:11,18-09-2024 19:04:16,5.036s,PASSED
+dirName = getProjectDir(),Chrome 128.0.0.0,,,18-09-2024 19:04:16,18-09-2024 19:04:16,0.003s,PASSED
+"println(""Project Directory: "" + dirName)",Chrome 128.0.0.0,,,18-09-2024 19:04:16,18-09-2024 19:04:16,0.019s,PASSED
+"uploadFile(findTestObject(""OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0""), dirName + ""/MyTestFile/TestData.xlsx"")",Chrome 128.0.0.0,,,18-09-2024 19:04:16,18-09-2024 19:04:17,0.318s,PASSED
+delay(5),Chrome 128.0.0.0,,,18-09-2024 19:04:17,18-09-2024 19:04:22,5.009s,PASSED
+"click(findTestObject(""OR File Upload/Page_File Upload Demo/input_I accept_terms (1)""))",Chrome 128.0.0.0,,,18-09-2024 19:04:22,18-09-2024 19:04:22,0.288s,PASSED
+"click(findTestObject(""OR File Upload/Page_File Upload Demo/button_Submit File (1)""))",Chrome 128.0.0.0,,,18-09-2024 19:04:22,18-09-2024 19:04:22,0.264s,PASSED
+"verifyElementPresent(findTestObject(""OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded""), 2)",Chrome 128.0.0.0,,,18-09-2024 19:04:22,18-09-2024 19:04:23,0.761s,PASSED
+delay(5),Chrome 128.0.0.0,,,18-09-2024 19:04:23,18-09-2024 19:04:28,5.008s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,18-09-2024 19:04:28,18-09-2024 19:04:28,0.166s,PASSED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys,Chrome 128.0.0.0,,,18-09-2024 19:04:28,18-09-2024 19:04:45,16.538s,PASSED
+"openBrowser(""https://www.igniteui.com/file-upload/multiple-upload"")",Chrome 128.0.0.0,,,18-09-2024 19:04:28,18-09-2024 19:04:34,5.403s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,18-09-2024 19:04:34,18-09-2024 19:04:34,0.407s,PASSED
+driver = getWebDriver(),Chrome 128.0.0.0,,,18-09-2024 19:04:34,18-09-2024 19:04:34,0.010s,PASSED
+wrappedDriver = driver.getWrappedDriver(),Chrome 128.0.0.0,,,18-09-2024 19:04:34,18-09-2024 19:04:34,0.009s,PASSED
+if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver),Chrome 128.0.0.0,,,18-09-2024 19:04:34,18-09-2024 19:04:34,0.015s,PASSED
+delay(5),Chrome 128.0.0.0,,,18-09-2024 19:04:34,18-09-2024 19:04:39,5.010s,PASSED
+dirName = getProjectDir(),Chrome 128.0.0.0,,,18-09-2024 19:04:39,18-09-2024 19:04:39,0.002s,PASSED
+"println(""Project Directory: "" + dirName)",Chrome 128.0.0.0,,,18-09-2024 19:04:39,18-09-2024 19:04:39,0.002s,PASSED
+"sendKeys(findTestObject(""OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File""), dirName + ""/MyTestFile/TestData.xlsx 
+"" + dirName + ""/MyTestFile/DDT.xlsx"")",Chrome 128.0.0.0,,,18-09-2024 19:04:39,18-09-2024 19:04:39,0.289s,PASSED
+delay(5),Chrome 128.0.0.0,,,18-09-2024 19:04:39,18-09-2024 19:04:44,5.013s,PASSED
+"click(findTestObject(""OR File Upload/Page_Multiple Uploads Sample/btn_Upload""))",Chrome 128.0.0.0,,,18-09-2024 19:04:44,18-09-2024 19:04:45,0.269s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,18-09-2024 19:04:45,18-09-2024 19:04:45,0.003s,NOT_RUN

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Upload file Method" time="38.442" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Upload file Method" tests="2" failures="0" errors="0" time="38.442" skipped="0" timestamp="18-09-2024T19:04:06" hostname="vaibhavjain - localhost" id="Test Suites/TS_Upload file Method">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/Reports/20240918_190403/TS_Upload file Method/20240918_190404"/>
+         <property name="logFiles" value="/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/Reports/20240918_190403/TS_Upload file Method/20240918_190404/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vaibhavjain - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.1.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="ad241690cdd7dcc0b4f82a9b9b7f8c3c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword" time="21.824" classname="Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword" status="PASSED">
+         <system-out><![CDATA[18-09-2024T19:04:06 - [TEST_CASE][PASSED] - Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword: Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword
+
+18-09-2024T19:04:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-09-2024T19:04:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-09-2024T19:04:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-09-2024T19:04:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-09-2024T19:04:09 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.guru99.com/test/upload/"): Navigate to 'http://demo.guru99.com/test/upload/' successfully
+
+18-09-2024T19:04:11 - [MESSAGE][PASSED] - Navigate to 'http://demo.guru99.com/test/upload/' successfully
+
+18-09-2024T19:04:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-09-2024T19:04:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-09-2024T19:04:16 - [TEST_STEP][PASSED] - dirName = getProjectDir(): null
+
+18-09-2024T19:04:16 - [TEST_STEP][PASSED] - println("Project Directory: " + dirName): null
+
+18-09-2024T19:04:16 - [TEST_STEP][PASSED] - uploadFile(findTestObject("OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0"), dirName + "/MyTestFile/TestData.xlsx"): File '/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' sent to object: 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0'
+
+18-09-2024T19:04:16 - [MESSAGE][PASSED] - File '/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' sent to object: 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0'
+
+18-09-2024T19:04:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-09-2024T19:04:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-09-2024T19:04:22 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_File Upload Demo/input_I accept_terms (1)")): Object: 'Object Repository/OR File Upload/Page_File Upload Demo/input_I accept_terms (1)' is clicked on
+
+18-09-2024T19:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_File Upload Demo/input_I accept_terms (1)' is clicked on
+
+18-09-2024T19:04:22 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_File Upload Demo/button_Submit File (1)")): Object: 'Object Repository/OR File Upload/Page_File Upload Demo/button_Submit File (1)' is clicked on
+
+18-09-2024T19:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_File Upload Demo/button_Submit File (1)' is clicked on
+
+18-09-2024T19:04:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded"), 2): Object 'Object Repository/OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded' is present
+
+18-09-2024T19:04:23 - [MESSAGE][PASSED] - Object 'Object Repository/OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded' is present
+
+18-09-2024T19:04:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-09-2024T19:04:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-09-2024T19:04:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-09-2024T19:04:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys" time="16.538" classname="Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys" status="PASSED">
+         <system-out><![CDATA[18-09-2024T19:04:28 - [TEST_CASE][PASSED] - Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys: Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys
+
+18-09-2024T19:04:28 - [TEST_STEP][PASSED] - openBrowser("https://www.igniteui.com/file-upload/multiple-upload"): Browser is opened with url: 'https://www.igniteui.com/file-upload/multiple-upload'
+
+18-09-2024T19:04:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-09-2024T19:04:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-09-2024T19:04:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.igniteui.com/file-upload/multiple-upload'
+
+18-09-2024T19:04:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-09-2024T19:04:34 - [MESSAGE][PASSED] - Current window maximized
+
+18-09-2024T19:04:34 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+18-09-2024T19:04:34 - [TEST_STEP][PASSED] - wrappedDriver = driver.getWrappedDriver(): null
+
+18-09-2024T19:04:34 - [TEST_STEP][PASSED] - if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver): null
+
+18-09-2024T19:04:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-09-2024T19:04:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-09-2024T19:04:39 - [TEST_STEP][PASSED] - dirName = getProjectDir(): null
+
+18-09-2024T19:04:39 - [TEST_STEP][PASSED] - println("Project Directory: " + dirName): null
+
+18-09-2024T19:04:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File"), dirName + "/MyTestFile/TestData.xlsx 
+" + dirName + "/MyTestFile/DDT.xlsx"): Keys '/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx 
+/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/MyTestFile/DDT.xlsx' sent to object: 'Object Repository/OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File'
+
+18-09-2024T19:04:39 - [MESSAGE][PASSED] - Keys '/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx 
+/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/MyTestFile/DDT.xlsx' sent to object: 'Object Repository/OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File'
+
+18-09-2024T19:04:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-09-2024T19:04:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-09-2024T19:04:44 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_Multiple Uploads Sample/btn_Upload")): Object: 'Object Repository/OR File Upload/Page_Multiple Uploads Sample/btn_Upload' is clicked on
+
+18-09-2024T19:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_Multiple Uploads Sample/btn_Upload' is clicked on
+
+18-09-2024T19:04:45 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+18-09-2024T19:04:45 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-09-2024T19:04:06 - [TEST_SUITE][PASSED] - TS_Upload file Method: Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

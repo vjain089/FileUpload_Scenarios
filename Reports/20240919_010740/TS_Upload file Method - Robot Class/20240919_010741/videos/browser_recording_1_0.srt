@@ -1,0 +1,100 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. dirName = getProjectDir()
+
+2
+00:00:00,000 --> 00:00:00,000
+5. println("Project Directory: " + dirName)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. file = new java.io.File((dirName + /MyTestFile/TestData.xlsx))
+
+4
+00:00:00,000 --> 00:00:00,000
+13. stringSelection = new java.awt.datatransfer.StringSelection(file.getAbsolutePath())
+
+5
+00:00:00,000 --> 00:00:00,000
+17. clipboard = getDefaultToolkit().getSystemClipboard()
+
+6
+00:00:00,000 --> 00:00:00,000
+21. clipboard.setContents(stringSelection, null)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. println(System.getProperty("os.name"))
+
+8
+00:00:00,000 --> 00:00:00,000
+29. if (name").contains("Mac OS X"))
+
+9
+00:00:00,000 --> 00:00:00,000
+1. robot = new java.awt.Robot()
+
+10
+00:00:00,000 --> 00:00:00,000
+5. robot.delay(5000)
+
+11
+00:00:00,000 --> 00:00:00,000
+9. robot.keyPress(VK_META)
+
+12
+00:00:00,000 --> 00:00:00,000
+13. robot.keyPress(VK_SHIFT)
+
+13
+00:00:00,000 --> 00:00:00,000
+17. robot.keyPress(VK_G)
+
+14
+00:00:00,000 --> 00:00:00,000
+21. robot.keyRelease(VK_META)
+
+15
+00:00:00,000 --> 00:00:00,000
+25. robot.keyRelease(VK_SHIFT)
+
+16
+00:00:00,000 --> 00:00:00,000
+29. robot.keyRelease(VK_G)
+
+17
+00:00:00,000 --> 00:00:00,000
+33. robot.keyPress(VK_META)
+
+18
+00:00:00,000 --> 00:00:00,000
+37. robot.keyPress(VK_V)
+
+19
+00:00:00,000 --> 00:00:00,000
+41. robot.keyRelease(VK_META)
+
+20
+00:00:00,000 --> 00:00:00,000
+45. robot.keyRelease(VK_V)
+
+21
+00:00:00,000 --> 00:00:00,000
+49. robot.keyPress(VK_ENTER)
+
+22
+00:00:00,000 --> 00:00:00,000
+53. robot.keyRelease(VK_ENTER)
+
+23
+00:00:00,000 --> 00:00:00,000
+57. robot.delay(5000)
+
+24
+00:00:00,000 --> 00:00:00,000
+61. robot.keyPress(VK_ENTER)
+
+25
+00:00:00,000 --> 00:00:00,000
+65. robot.keyRelease(VK_ENTER)
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Upload file Method - Robot Class" time="13.668" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Upload file Method - Robot Class" tests="1" failures="0" errors="0" time="13.668" skipped="0" timestamp="18-09-2024T19:48:37" hostname="vaibhavjain - localhost" id="Test Suites/TS_Upload file Method - Robot Class">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/Reports/20240918_194817/TS_Upload file Method - Robot Class/20240918_194826"/>
+         <property name="logFiles" value="/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/Reports/20240918_194817/TS_Upload file Method - Robot Class/20240918_194826/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vaibhavjain - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+      </properties>
+      <testcase name="Test Cases/TC File Upload - Kool Session/File_Upload by Robot class- Diff OS" time="13.284" classname="Test Cases/TC File Upload - Kool Session/File_Upload by Robot class- Diff OS" status="PASSED">
+         <system-out><![CDATA[18-09-2024T19:48:37 - [TEST_CASE][PASSED] - Test Cases/TC File Upload - Kool Session/File_Upload by Robot class- Diff OS: Test Cases/TC File Upload - Kool Session/File_Upload by Robot class- Diff OS
+
+18-09-2024T19:48:38 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+18-09-2024T19:48:38 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome (headless)
+
+18-09-2024T19:48:38 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+18-09-2024T19:48:38 - [TEST_STEP][PASSED] - dirName = getProjectDir(): null
+
+18-09-2024T19:48:38 - [TEST_STEP][PASSED] - println("Project Directory: " + dirName): null
+
+18-09-2024T19:48:38 - [TEST_STEP][PASSED] - file = new java.io.File((dirName + /MyTestFile/TestData.xlsx)): null
+
+18-09-2024T19:48:38 - [TEST_STEP][PASSED] - stringSelection = new java.awt.datatransfer.StringSelection(file.getAbsolutePath()): null
+
+18-09-2024T19:48:38 - [TEST_STEP][PASSED] - clipboard = getDefaultToolkit().getSystemClipboard(): null
+
+18-09-2024T19:48:39 - [TEST_STEP][PASSED] - clipboard.setContents(stringSelection, null): null
+
+18-09-2024T19:48:40 - [TEST_STEP][PASSED] - println(System.getProperty("os.name")): null
+
+18-09-2024T19:48:40 - [TEST_STEP][PASSED] - if (name").contains("Mac OS X")): null
+
+18-09-2024T19:48:40 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+18-09-2024T19:48:40 - [TEST_STEP][PASSED] - robot.delay(5000): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyPress(VK_META): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyPress(VK_SHIFT): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyPress(VK_G): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyRelease(VK_META): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyRelease(VK_SHIFT): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyRelease(VK_G): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyPress(VK_META): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyPress(VK_V): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyRelease(VK_META): null
+
+18-09-2024T19:48:45 - [TEST_STEP][PASSED] - robot.keyRelease(VK_V): null
+
+18-09-2024T19:48:46 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+18-09-2024T19:48:46 - [TEST_STEP][PASSED] - robot.keyRelease(VK_ENTER): null
+
+18-09-2024T19:48:46 - [TEST_STEP][PASSED] - robot.delay(5000): null
+
+18-09-2024T19:48:51 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+18-09-2024T19:48:51 - [TEST_STEP][PASSED] - robot.keyRelease(VK_ENTER): null
+
+18-09-2024T19:48:51 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome (headless)
+
+18-09-2024T19:48:51 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome (headless)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-09-2024T19:48:37 - [TEST_SUITE][PASSED] - TS_Upload file Method - Robot Class: Test Cases/TC File Upload - Kool Session/File_Upload by Robot class- Diff OS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

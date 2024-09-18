@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file Method - FileWrapper,Chrome 128.0.0.0,,,18-09-2024 19:08:01,18-09-2024 19:08:07,6.013s,FAILED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/File_Upload - FileWrapper,Chrome 128.0.0.0,,,18-09-2024 19:08:01,18-09-2024 19:08:07,5.936s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,18-09-2024 19:08:01,18-09-2024 19:08:03,2.353s,PASSED
+driver = getWebDriver(),Chrome 128.0.0.0,,,18-09-2024 19:08:03,18-09-2024 19:08:03,0.016s,PASSED
+wrappedDriver = driver.getWrappedDriver(),Chrome 128.0.0.0,,,18-09-2024 19:08:03,18-09-2024 19:08:03,0.020s,PASSED
+if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver),Chrome 128.0.0.0,,,18-09-2024 19:08:03,18-09-2024 19:08:04,0.055s,PASSED
+dirName = getProjectDir(),Chrome 128.0.0.0,,,18-09-2024 19:08:04,18-09-2024 19:08:04,0.003s,PASSED
+"println(""Project Directory: "" + dirName)",Chrome 128.0.0.0,,,18-09-2024 19:08:04,18-09-2024 19:08:04,0.013s,PASSED
+filePath = docx)).getCanonicalPath(),Chrome 128.0.0.0,,,18-09-2024 19:08:04,18-09-2024 19:08:04,0.008s,PASSED
+"navigateToUrl(""https://www.filemail.com"")",Chrome 128.0.0.0,,,18-09-2024 19:08:04,18-09-2024 19:08:07,3.096s,PASSED
+"click(findTestObject(""Page_Send Large Files Free - Fast Secure Fi_594b22/a_Log in""))",Chrome 128.0.0.0,,,18-09-2024 19:08:07,18-09-2024 19:08:07,0.088s,FAILED

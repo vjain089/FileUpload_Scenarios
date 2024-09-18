@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload a file using Drag and Drop</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22560984-b2af-4c9c-82c9-4e7f29dd36df</testCaseGuid>
+</TestCaseEntity>
