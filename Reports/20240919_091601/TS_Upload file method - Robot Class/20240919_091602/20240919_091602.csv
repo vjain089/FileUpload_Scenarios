@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file method - Robot Class,,,,19-09-2024 09:16:08,19-09-2024 09:16:12,4.322s,FAILED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/Upload a file using Robot Class,,,sanity,19-09-2024 09:16:08,19-09-2024 09:16:12,4.237s,FAILED
+Start listener action : enableSauceLabs,,,,19-09-2024 09:16:08,19-09-2024 09:16:08,0.010s,PASSED
+"openBrowser(""https://www.igniteui.com/file-upload/multiple-upload"")",,,,19-09-2024 09:16:08,19-09-2024 09:16:12,4.055s,FAILED
+Start listener action : autoUpdateJobStatus,,,,19-09-2024 09:16:12,19-09-2024 09:16:12,0.001s,PASSED

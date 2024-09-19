@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:25,679
+1. openBrowser("https://www.igniteui.com/file-upload/multiple-upload")
+
+2
+00:00:25,690 --> 00:00:26,539
+5. maximizeWindow()
+
+3
+00:00:26,540 --> 00:00:28,473
+9. clickOffset(findTestObject("OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File"), 0, 0)
+
+4
+00:00:28,474 --> 00:00:29,704
+13. callTestCase(findTestCase("TC File Upload - Kool Session/File Uplaod by Robot Class"), [:], STOP_ON_FAILURE)
+
+5
+00:00:29,716 --> 00:00:29,731
+1. dirName = getProjectDir()
+
+6
+00:00:29,732 --> 00:00:29,757
+5. println("Project Directory: " + dirName)
+
+7
+00:00:29,758 --> 00:00:29,761
+9. file = new java.io.File((dirName + /MyTestFile/TestData.xlsx))
+
+8
+00:00:29,762 --> 00:00:29,834
+13. stringSelection = new java.awt.datatransfer.StringSelection(file.getAbsolutePath())
+
+9
+00:00:29,835 --> 00:00:30,667
+17. clipboard = getDefaultToolkit().getSystemClipboard()
+
+10
+00:00:30,672 --> 00:00:31,304
+21. clipboard.setContents(stringSelection, null)
+
+11
+00:00:31,306 --> 00:00:31,340
+25. robot = new java.awt.Robot()
+
+12
+00:00:31,353 --> 00:00:31,568
+29. robot.keyPress(VK_META)
+
+13
+00:00:31,571 --> 00:00:31,619
+33. robot.keyPress(VK_TAB)
+
+14
+00:00:31,627 --> 00:00:31,666
+37. robot.keyRelease(VK_META)
+
+15
+00:00:31,831 --> 00:00:31,927
+41. robot.keyRelease(VK_TAB)
+
+16
+00:00:31,930 --> 00:00:37,009
+45. robot.delay(5000)
+
+17
+00:00:37,012 --> 00:00:37,019
+49. robot.keyPress(VK_META)
+
+18
+00:00:37,022 --> 00:00:37,098
+53. robot.keyPress(VK_SHIFT)
+
+19
+00:00:37,106 --> 00:00:37,136
+57. robot.keyPress(VK_G)
+
+20
+00:00:37,137 --> 00:00:37,233
+61. robot.keyRelease(VK_META)
+
+21
+00:00:37,236 --> 00:00:37,267
+65. robot.keyRelease(VK_SHIFT)
+
+22
+00:00:37,284 --> 00:00:37,336
+69. robot.keyRelease(VK_G)
+
+23
+00:00:37,353 --> 00:00:37,377
+73. robot.keyPress(VK_META)
+
+24
+00:00:37,381 --> 00:00:37,440
+77. robot.keyPress(VK_V)
+
+25
+00:00:37,441 --> 00:00:37,484
+81. robot.keyRelease(VK_META)
+
+26
+00:00:37,485 --> 00:00:37,540
+85. robot.keyRelease(VK_V)
+
+27
+00:00:37,541 --> 00:00:37,591
+89. robot.keyPress(VK_ENTER)
+
+28
+00:00:37,596 --> 00:00:37,647
+93. robot.keyRelease(VK_ENTER)
+
+29
+00:00:37,649 --> 00:00:42,654
+97. robot.delay(5000)
+
+30
+00:00:42,655 --> 00:00:42,658
+101. robot.keyPress(VK_ENTER)
+
+31
+00:00:42,658 --> 00:00:42,760
+105. robot.keyRelease(VK_ENTER)
+
+32
+00:00:42,761 --> 00:00:52,794
+17. delay(10)
+
+33
+00:00:52,795 --> 00:00:53,035
+21. closeBrowser()
+

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file method - Robot Class,Chrome 128.0.0.0,,,19-09-2024 08:40:04,19-09-2024 08:41:19,1m - 14.766s,PASSED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/Upload a file using Robot Class,Chrome 128.0.0.0,,sanity,19-09-2024 08:40:04,19-09-2024 08:41:19,1m - 14.422s,PASSED
+Start listener action : enableSauceLabs,Chrome 128.0.0.0,,,19-09-2024 08:40:04,19-09-2024 08:40:04,0.022s,PASSED
+"openBrowser(""https://www.igniteui.com/file-upload/multiple-upload"")",Chrome 128.0.0.0,,,19-09-2024 08:40:05,19-09-2024 08:40:47,42.730s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,19-09-2024 08:40:47,19-09-2024 08:40:48,0.672s,PASSED
+"clickOffset(findTestObject(""OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File""), 0, 0)",Chrome 128.0.0.0,,,19-09-2024 08:40:48,19-09-2024 08:40:50,1.745s,PASSED
+"callTestCase(findTestCase(""TC File Upload - Kool Session/File Uplaod by Robot Class""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,19-09-2024 08:40:50,19-09-2024 08:41:05,15.631s,PASSED
+delay(10),Chrome 128.0.0.0,,,19-09-2024 08:41:05,19-09-2024 08:41:15,10.036s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,19-09-2024 08:41:15,19-09-2024 08:41:16,0.178s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 128.0.0.0,,,19-09-2024 08:41:16,19-09-2024 08:41:16,0.006s,PASSED
