@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:05,665
+5. navigateToUrl("http://demo.guru99.com/test/upload/")
+
+3
+00:00:05,666 --> 00:00:10,715
+9. delay(5)
+
+4
+00:00:10,716 --> 00:00:10,723
+13. dirName = getProjectDir()
+
+5
+00:00:10,724 --> 00:00:10,736
+17. println("Project Directory: " + dirName)
+
+6
+00:00:10,739 --> 00:00:13,852
+21. uploadFile(findTestObject("OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0"), dirName + "/MyTestFile/TestData.xlsx")
+
+7
+00:00:13,853 --> 00:00:18,861
+25. delay(5)
+
+8
+00:00:18,862 --> 00:00:21,942
+29. click(findTestObject("OR File Upload/Page_File Upload Demo/input_I accept_terms (1)"))
+
+9
+00:00:21,942 --> 00:00:24,992
+33. click(findTestObject("OR File Upload/Page_File Upload Demo/button_Submit File (1)"))
+
+10
+00:00:24,992 --> 00:00:25,023
+37. verifyElementPresent(findTestObject("OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded"), 2)
+
+11
+00:00:25,024 --> 00:00:30,031
+41. delay(5)
+
+12
+00:00:30,032 --> 00:00:30,041
+45. closeBrowser()
+

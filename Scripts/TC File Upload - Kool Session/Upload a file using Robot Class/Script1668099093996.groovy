@@ -1,8 +1,7 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import com.kms.katalon.core.configuration.RunConfiguration
-import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('https://www.igniteui.com/file-upload/multiple-upload')
@@ -15,4 +14,5 @@ WebUI.callTestCase(findTestCase('TC File Upload - Kool Session/File Uplaod by Ro
 
 WebUI.delay(10)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
+

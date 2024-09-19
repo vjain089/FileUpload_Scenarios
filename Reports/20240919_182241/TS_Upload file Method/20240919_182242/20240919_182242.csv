@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file Method,Chrome 128.0.0.0,,,19-09-2024 18:22:47,19-09-2024 18:23:56,1m - 8.902s,PASSED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword,Chrome 128.0.0.0,,,19-09-2024 18:22:47,19-09-2024 18:23:23,36.162s,PASSED
+Start listener action : enableSauceLabs,Chrome 128.0.0.0,,,19-09-2024 18:22:47,19-09-2024 18:22:47,0.008s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,19-09-2024 18:22:47,19-09-2024 18:22:50,2.672s,PASSED
+"navigateToUrl(""http://demo.guru99.com/test/upload/"")",Chrome 128.0.0.0,,,19-09-2024 18:22:50,19-09-2024 18:22:56,5.720s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:22:56,19-09-2024 18:23:01,5.048s,PASSED
+dirName = getProjectDir(),Chrome 128.0.0.0,,,19-09-2024 18:23:01,19-09-2024 18:23:01,0.005s,PASSED
+"println(""Project Directory: "" + dirName)",Chrome 128.0.0.0,,,19-09-2024 18:23:01,19-09-2024 18:23:01,0.013s,PASSED
+"uploadFile(findTestObject(""OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0""), dirName + ""/MyTestFile/TestData.xlsx"")",Chrome 128.0.0.0,,,19-09-2024 18:23:01,19-09-2024 18:23:04,3.113s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:23:04,19-09-2024 18:23:09,5.009s,PASSED
+"click(findTestObject(""OR File Upload/Page_File Upload Demo/input_I accept_terms (1)""))",Chrome 128.0.0.0,,,19-09-2024 18:23:09,19-09-2024 18:23:12,3.080s,PASSED
+"click(findTestObject(""OR File Upload/Page_File Upload Demo/button_Submit File (1)""))",Chrome 128.0.0.0,,,19-09-2024 18:23:12,19-09-2024 18:23:15,3.050s,PASSED
+"verifyElementPresent(findTestObject(""OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded""), 2)",Chrome 128.0.0.0,,,19-09-2024 18:23:15,19-09-2024 18:23:15,0.031s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:23:15,19-09-2024 18:23:20,5.009s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,19-09-2024 18:23:20,19-09-2024 18:23:20,0.004s,NOT_RUN
+Start listener action : autoUpdateJobStatus,Chrome 128.0.0.0,,,19-09-2024 18:23:20,19-09-2024 18:23:20,0.001s,PASSED
+Video,Chrome 128.0.0.0,,,19-09-2024 18:23:23,19-09-2024 18:23:23,0.002s,PASSED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys,Chrome 128.0.0.0,,,19-09-2024 18:23:23,19-09-2024 18:23:56,32.645s,PASSED
+Start listener action : enableSauceLabs,Chrome 128.0.0.0,,,19-09-2024 18:23:24,19-09-2024 18:23:24,0.044s,PASSED
+"openBrowser(""https://www.igniteui.com/file-upload/multiple-upload"")",Chrome 128.0.0.0,,,19-09-2024 18:23:24,19-09-2024 18:23:36,12.150s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,19-09-2024 18:23:36,19-09-2024 18:23:36,0.320s,PASSED
+driver = getWebDriver(),Chrome 128.0.0.0,,,19-09-2024 18:23:36,19-09-2024 18:23:37,0.018s,PASSED
+wrappedDriver = driver.getWrappedDriver(),Chrome 128.0.0.0,,,19-09-2024 18:23:37,19-09-2024 18:23:37,0.012s,PASSED
+if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver),Chrome 128.0.0.0,,,19-09-2024 18:23:37,19-09-2024 18:23:37,0.017s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:23:37,19-09-2024 18:23:42,5.008s,PASSED
+dirName = getProjectDir(),Chrome 128.0.0.0,,,19-09-2024 18:23:42,19-09-2024 18:23:42,0.002s,PASSED
+"println(""Project Directory: "" + dirName)",Chrome 128.0.0.0,,,19-09-2024 18:23:42,19-09-2024 18:23:42,0.002s,PASSED
+"sendKeys(findTestObject(""OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File""), dirName + ""/MyTestFile/TestData.xlsx 
+"" + dirName + ""/MyTestFile/DDT.xlsx"")",Chrome 128.0.0.0,,,19-09-2024 18:23:42,19-09-2024 18:23:45,3.071s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:23:45,19-09-2024 18:23:50,5.007s,PASSED
+"click(findTestObject(""OR File Upload/Page_Multiple Uploads Sample/btn_Upload""))",Chrome 128.0.0.0,,,19-09-2024 18:23:50,19-09-2024 18:23:53,3.060s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,19-09-2024 18:23:53,19-09-2024 18:23:53,0.002s,NOT_RUN
+Start listener action : autoUpdateJobStatus,Chrome 128.0.0.0,,,19-09-2024 18:23:53,19-09-2024 18:23:53,0.001s,PASSED
+Video,Chrome 128.0.0.0,,,19-09-2024 18:23:56,19-09-2024 18:23:56,0.001s,PASSED

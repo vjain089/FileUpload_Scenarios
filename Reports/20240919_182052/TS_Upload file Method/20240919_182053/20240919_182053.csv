@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file Method,Chrome 128.0.0.0,,,19-09-2024 18:20:58,19-09-2024 18:21:28,29.851s,PASSED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys,Chrome 128.0.0.0,,,19-09-2024 18:20:58,19-09-2024 18:21:28,29.774s,PASSED
+Start listener action : enableSauceLabs,Chrome 128.0.0.0,,,19-09-2024 18:20:59,19-09-2024 18:20:59,0.007s,PASSED
+"openBrowser(""https://www.igniteui.com/file-upload/multiple-upload"")",Chrome 128.0.0.0,,,19-09-2024 18:20:59,19-09-2024 18:21:10,10.928s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,19-09-2024 18:21:10,19-09-2024 18:21:10,0.326s,PASSED
+driver = getWebDriver(),Chrome 128.0.0.0,,,19-09-2024 18:21:10,19-09-2024 18:21:10,0.021s,PASSED
+wrappedDriver = driver.getWrappedDriver(),Chrome 128.0.0.0,,,19-09-2024 18:21:10,19-09-2024 18:21:10,0.014s,PASSED
+if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver),Chrome 128.0.0.0,,,19-09-2024 18:21:10,19-09-2024 18:21:10,0.018s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:21:10,19-09-2024 18:21:15,5.028s,PASSED
+dirName = getProjectDir(),Chrome 128.0.0.0,,,19-09-2024 18:21:15,19-09-2024 18:21:15,0.006s,PASSED
+"println(""Project Directory: "" + dirName)",Chrome 128.0.0.0,,,19-09-2024 18:21:15,19-09-2024 18:21:15,0.009s,PASSED
+"sendKeys(findTestObject(""OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File""), dirName + ""/MyTestFile/TestData.xlsx 
+"" + dirName + ""/MyTestFile/DDT.xlsx"")",Chrome 128.0.0.0,,,19-09-2024 18:21:15,19-09-2024 18:21:18,3.166s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:21:18,19-09-2024 18:21:23,5.011s,PASSED
+"click(findTestObject(""OR File Upload/Page_Multiple Uploads Sample/btn_Upload""))",Chrome 128.0.0.0,,,19-09-2024 18:21:23,19-09-2024 18:21:26,3.072s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,19-09-2024 18:21:26,19-09-2024 18:21:26,0.003s,NOT_RUN
+Start listener action : autoUpdateJobStatus,Chrome 128.0.0.0,,,19-09-2024 18:21:26,19-09-2024 18:21:26,0.001s,PASSED
+Video,Chrome 128.0.0.0,,,19-09-2024 18:21:28,19-09-2024 18:21:28,0.001s,PASSED

@@ -1,0 +1,50 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:05,428
+5. navigateToUrl("https://imgur.com/upload?beta")
+
+3
+00:00:05,428 --> 00:00:05,437
+9. driver = getWebDriver()
+
+4
+00:00:05,437 --> 00:00:05,445
+13. wrappedDriver = driver.getWrappedDriver()
+
+5
+00:00:05,446 --> 00:00:05,460
+17. if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver)
+
+6
+00:00:05,460 --> 00:00:05,462
+21. filePath = getProjectDir() + "/Katalon-Devices.JPG"
+
+7
+00:00:05,462 --> 00:00:05,464
+25. filePath1 = getProjectDir() + "/Katalon-Devices 1.JPG"
+
+8
+00:00:05,464 --> 00:00:05,466
+29. filePath2 = getProjectDir() + "/Katalon-Devices 2.JPG"
+
+9
+00:00:05,466 --> 00:00:05,469
+33. concatenatedFilePath = filePath + "
+" + filePath1 + "
+" + filePath2
+
+10
+00:00:05,469 --> 00:00:08,542
+37. uploadFileWithDragAndDrop(concatenatedFilePath)
+
+11
+00:00:08,542 --> 00:00:18,570
+41. delay(10)
+
+12
+00:00:18,570 --> 00:00:18,577
+45. closeBrowser()
+

@@ -1,0 +1,49 @@
+1
+00:00:00,025 --> 00:00:12,173
+1. openBrowser("https://www.igniteui.com/file-upload/multiple-upload")
+
+2
+00:00:12,175 --> 00:00:12,494
+5. maximizeWindow()
+
+3
+00:00:12,495 --> 00:00:12,513
+9. driver = getWebDriver()
+
+4
+00:00:12,513 --> 00:00:12,525
+13. wrappedDriver = driver.getWrappedDriver()
+
+5
+00:00:12,526 --> 00:00:12,543
+17. if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver)
+
+6
+00:00:12,543 --> 00:00:17,550
+21. delay(5)
+
+7
+00:00:17,550 --> 00:00:17,553
+25. dirName = getProjectDir()
+
+8
+00:00:17,553 --> 00:00:17,555
+29. println("Project Directory: " + dirName)
+
+9
+00:00:17,556 --> 00:00:20,626
+33. sendKeys(findTestObject("OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File"), dirName + "/MyTestFile/TestData.xlsx 
+" + dirName + "/MyTestFile/DDT.xlsx")
+
+10
+00:00:20,626 --> 00:00:25,634
+37. delay(5)
+
+11
+00:00:25,635 --> 00:00:28,695
+41. click(findTestObject("OR File Upload/Page_Multiple Uploads Sample/btn_Upload"))
+
+12
+00:00:28,696 --> 00:00:28,701
+45. closeBrowser()
+

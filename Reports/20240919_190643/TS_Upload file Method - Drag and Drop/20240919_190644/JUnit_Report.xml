@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Upload file Method - Drag and Drop" time="25.639" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Upload file Method - Drag and Drop" tests="1" failures="0" errors="0" time="25.639" skipped="0" timestamp="19-09-2024T19:06:52" hostname="vaibhavjain - localhost" id="Test Suites/TS_Upload file Method - Drag and Drop">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/Reports/20240919_190643/TS_Upload file Method - Drag and Drop/20240919_190644"/>
+         <property name="logFiles" value="/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/Reports/20240919_190643/TS_Upload file Method - Drag and Drop/20240919_190644/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vaibhavjain - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="36fca1e66168e7042fcd0319098c3a4a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC File Upload - Kool Session/Upload a file using Upload file with Drag and Drop" time="25.566" classname="Test Cases/TC File Upload - Kool Session/Upload a file using Upload file with Drag and Drop" status="PASSED">
+         <system-out><![CDATA[19-09-2024T19:06:52 - [TEST_CASE][PASSED] - Test Cases/TC File Upload - Kool Session/Upload a file using Upload file with Drag and Drop: Test Cases/TC File Upload - Kool Session/Upload a file using Upload file with Drag and Drop
+
+19-09-2024T19:06:52 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T19:06:52 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T19:06:52 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T19:06:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-09-2024T19:06:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-09-2024T19:06:52 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1500,1000, --remote-allow-origins=*]']
+
+19-09-2024T19:06:52 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+19-09-2024T19:06:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-09-2024T19:06:54 - [TEST_STEP][PASSED] - navigateToUrl("https://imgur.com/upload?beta"): Navigate to 'https://imgur.com/upload?beta' successfully
+
+19-09-2024T19:07:00 - [MESSAGE][PASSED] - Navigate to 'https://imgur.com/upload?beta' successfully
+
+19-09-2024T19:07:00 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+19-09-2024T19:07:00 - [TEST_STEP][PASSED] - wrappedDriver = driver.getWrappedDriver(): null
+
+19-09-2024T19:07:00 - [TEST_STEP][PASSED] - if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver): null
+
+19-09-2024T19:07:00 - [TEST_STEP][PASSED] - filePath = getProjectDir() + "/Katalon-Devices.JPG": null
+
+19-09-2024T19:07:00 - [TEST_STEP][PASSED] - filePath1 = getProjectDir() + "/Katalon-Devices 1.JPG": null
+
+19-09-2024T19:07:00 - [TEST_STEP][PASSED] - filePath2 = getProjectDir() + "/Katalon-Devices 2.JPG": null
+
+19-09-2024T19:07:00 - [TEST_STEP][PASSED] - concatenatedFilePath = filePath + "
+" + filePath1 + "
+" + filePath2: null
+
+19-09-2024T19:07:00 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(concatenatedFilePath): Test object with id 'Object Repository/' does not exist
+
+19-09-2024T19:07:00 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+19-09-2024T19:07:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+19-09-2024T19:07:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+19-09-2024T19:07:13 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+19-09-2024T19:07:13 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+19-09-2024T19:07:13 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T19:07:13 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T19:07:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC File Upload - Kool Session/Upload a file using Upload file with Drag and Drop' .
+
+19-09-2024T19:07:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC File Upload - Kool Session/Upload a file using Upload file with Drag and Drop' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-09-2024T19:06:52 - [TEST_SUITE][PASSED] - TS_Upload file Method - Drag and Drop: Test Cases/TC File Upload - Kool Session/Upload a file using Upload file with Drag and Drop]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

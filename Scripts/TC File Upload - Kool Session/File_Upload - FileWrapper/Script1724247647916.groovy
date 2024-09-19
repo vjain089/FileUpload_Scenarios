@@ -11,22 +11,20 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-
 EventFiringWebDriver driver = DriverFactory.getWebDriver()
 
 WebDriver wrappedDriver = driver.getWrappedDriver()
 
 if (wrappedDriver.class == CRemoteWebDriver) {
-    wrappedDriver.setFileDetector(new LocalFileDetector()) /*
+    wrappedDriver.setFileDetector(new LocalFileDetector() /*
 *  Set the file detector for the remote web driver.
 *
 *  1. Initialize an EventFiringWebDriver using DriverFactory.
 *  2. Get the wrapped WebDriver from the EventFiringWebDriver.
 *  3. Check if the wrapped driver is an instance of CRemoteWebDriver and set the file detector to LocalFileDetector.
 *
-*/
+*/ )
 }
-
 
 String dirName = RunConfiguration.getProjectDir()
 
@@ -56,7 +54,7 @@ WebUI.uploadFile(findTestObject('OR File Upload/Page_Hub - Filemail/label_Add Fi
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('OR File Upload/Page_Hub - Filemail/button_Send'), 0)
+not_run: WebUI.scrollToElement(findTestObject('OR File Upload/Page_Hub - Filemail/button_Send'), 0)
 
 WebUI.click(findTestObject('OR File Upload/Page_Hub - Filemail/button_Send'))
 

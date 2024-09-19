@@ -44,13 +44,13 @@ clipboard.setContents(stringSelection, null);
 Robot robot = new Robot()
 
 // Cmd + Tab is needed since it launches a Java app and the browser looses focus
-/*robot.keyPress(KeyEvent.VK_META)
+robot.keyPress(KeyEvent.VK_META)
 
 robot.keyPress(KeyEvent.VK_TAB)
 
 robot.keyRelease(KeyEvent.VK_META)
 
-robot.keyRelease(KeyEvent.VK_TAB)*/
+robot.keyRelease(KeyEvent.VK_TAB)
 
 robot.delay(5000)
 

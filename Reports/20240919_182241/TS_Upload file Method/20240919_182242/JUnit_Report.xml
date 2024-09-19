@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Upload file Method" time="68.902" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Upload file Method" tests="2" failures="0" errors="0" time="68.902" skipped="0" timestamp="19-09-2024T18:22:47" hostname="vaibhavjain - localhost" id="Test Suites/TS_Upload file Method">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/Reports/20240919_182241/TS_Upload file Method/20240919_182242"/>
+         <property name="logFiles" value="/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/Reports/20240919_182241/TS_Upload file Method/20240919_182242/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vaibhavjain - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="00953a9789495c1a924f31214f922446"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword" time="36.162" classname="Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword" status="PASSED">
+         <system-out><![CDATA[19-09-2024T18:22:47 - [TEST_CASE][PASSED] - Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword: Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword
+
+19-09-2024T18:22:47 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T18:22:47 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T18:22:47 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T18:22:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-09-2024T18:22:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-09-2024T18:22:47 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1500,1000, --remote-allow-origins=*]']
+
+19-09-2024T18:22:47 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+19-09-2024T18:22:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-09-2024T18:22:50 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.guru99.com/test/upload/"): Navigate to 'http://demo.guru99.com/test/upload/' successfully
+
+19-09-2024T18:22:56 - [MESSAGE][PASSED] - Navigate to 'http://demo.guru99.com/test/upload/' successfully
+
+19-09-2024T18:22:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-09-2024T18:23:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-09-2024T18:23:01 - [TEST_STEP][PASSED] - dirName = getProjectDir(): null
+
+19-09-2024T18:23:01 - [TEST_STEP][PASSED] - println("Project Directory: " + dirName): null
+
+19-09-2024T18:23:01 - [TEST_STEP][PASSED] - uploadFile(findTestObject("OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0"), dirName + "/MyTestFile/TestData.xlsx"): File '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' sent to object: 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0'
+
+19-09-2024T18:23:04 - [MESSAGE][PASSED] - File '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' sent to object: 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0'
+
+19-09-2024T18:23:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-09-2024T18:23:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-09-2024T18:23:09 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_File Upload Demo/input_I accept_terms (1)")): Object: 'Object Repository/OR File Upload/Page_File Upload Demo/input_I accept_terms (1)' is clicked on
+
+19-09-2024T18:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_File Upload Demo/input_I accept_terms (1)' is clicked on
+
+19-09-2024T18:23:12 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_File Upload Demo/button_Submit File (1)")): Object: 'Object Repository/OR File Upload/Page_File Upload Demo/button_Submit File (1)' is clicked on
+
+19-09-2024T18:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_File Upload Demo/button_Submit File (1)' is clicked on
+
+19-09-2024T18:23:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded"), 2): Object 'Object Repository/OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded' is present
+
+19-09-2024T18:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded' is present
+
+19-09-2024T18:23:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-09-2024T18:23:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-09-2024T18:23:20 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+19-09-2024T18:23:20 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+19-09-2024T18:23:20 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T18:23:20 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T18:23:23 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword' .
+
+19-09-2024T18:23:23 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys" time="32.645" classname="Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys" status="PASSED">
+         <system-out><![CDATA[19-09-2024T18:23:23 - [TEST_CASE][PASSED] - Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys: Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys
+
+19-09-2024T18:23:24 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T18:23:24 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T18:23:24 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T18:23:24 - [TEST_STEP][PASSED] - openBrowser("https://www.igniteui.com/file-upload/multiple-upload"): Browser is opened with url: 'https://www.igniteui.com/file-upload/multiple-upload'
+
+19-09-2024T18:23:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-09-2024T18:23:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-09-2024T18:23:24 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1500,1000, --remote-allow-origins=*]']
+
+19-09-2024T18:23:24 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+19-09-2024T18:23:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.igniteui.com/file-upload/multiple-upload'
+
+19-09-2024T18:23:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-09-2024T18:23:36 - [MESSAGE][PASSED] - Current window maximized
+
+19-09-2024T18:23:36 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+19-09-2024T18:23:37 - [TEST_STEP][PASSED] - wrappedDriver = driver.getWrappedDriver(): null
+
+19-09-2024T18:23:37 - [TEST_STEP][PASSED] - if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver): null
+
+19-09-2024T18:23:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-09-2024T18:23:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-09-2024T18:23:42 - [TEST_STEP][PASSED] - dirName = getProjectDir(): null
+
+19-09-2024T18:23:42 - [TEST_STEP][PASSED] - println("Project Directory: " + dirName): null
+
+19-09-2024T18:23:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File"), dirName + "/MyTestFile/TestData.xlsx 
+" + dirName + "/MyTestFile/DDT.xlsx"): Keys '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx 
+/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/DDT.xlsx' sent to object: 'Object Repository/OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File'
+
+19-09-2024T18:23:45 - [MESSAGE][PASSED] - Keys '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx 
+/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/DDT.xlsx' sent to object: 'Object Repository/OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File'
+
+19-09-2024T18:23:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-09-2024T18:23:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-09-2024T18:23:50 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_Multiple Uploads Sample/btn_Upload")): Object: 'Object Repository/OR File Upload/Page_Multiple Uploads Sample/btn_Upload' is clicked on
+
+19-09-2024T18:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_Multiple Uploads Sample/btn_Upload' is clicked on
+
+19-09-2024T18:23:53 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+19-09-2024T18:23:53 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+19-09-2024T18:23:53 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T18:23:53 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T18:23:56 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys' .
+
+19-09-2024T18:23:56 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-09-2024T18:22:47 - [TEST_SUITE][PASSED] - TS_Upload file Method: Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

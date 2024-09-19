@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file Method,Chrome 128.0.0.0,,,19-09-2024 18:19:39,19-09-2024 18:20:17,38.406s,PASSED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword,Chrome 128.0.0.0,,,19-09-2024 18:19:39,19-09-2024 18:20:17,38.324s,PASSED
+Start listener action : enableSauceLabs,Chrome 128.0.0.0,,,19-09-2024 18:19:39,19-09-2024 18:19:39,0.008s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,19-09-2024 18:19:39,19-09-2024 18:19:42,2.763s,PASSED
+"navigateToUrl(""http://demo.guru99.com/test/upload/"")",Chrome 128.0.0.0,,,19-09-2024 18:19:42,19-09-2024 18:19:48,6.275s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:19:48,19-09-2024 18:19:53,5.029s,PASSED
+dirName = getProjectDir(),Chrome 128.0.0.0,,,19-09-2024 18:19:53,19-09-2024 18:19:53,0.004s,PASSED
+"println(""Project Directory: "" + dirName)",Chrome 128.0.0.0,,,19-09-2024 18:19:53,19-09-2024 18:19:53,0.010s,PASSED
+"uploadFile(findTestObject(""OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0""), dirName + ""/MyTestFile/TestData.xlsx"")",Chrome 128.0.0.0,,,19-09-2024 18:19:53,19-09-2024 18:19:56,3.120s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:19:56,19-09-2024 18:20:01,5.006s,PASSED
+"click(findTestObject(""OR File Upload/Page_File Upload Demo/input_I accept_terms (1)""))",Chrome 128.0.0.0,,,19-09-2024 18:20:01,19-09-2024 18:20:04,3.074s,PASSED
+"click(findTestObject(""OR File Upload/Page_File Upload Demo/button_Submit File (1)""))",Chrome 128.0.0.0,,,19-09-2024 18:20:04,19-09-2024 18:20:07,3.070s,PASSED
+"verifyElementPresent(findTestObject(""OR File Upload/Page_File Upload Demo/center_1 file has been successfully uploaded""), 2)",Chrome 128.0.0.0,,,19-09-2024 18:20:07,19-09-2024 18:20:07,0.042s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 18:20:07,19-09-2024 18:20:13,5.012s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,19-09-2024 18:20:13,19-09-2024 18:20:13,0.003s,NOT_RUN
+Start listener action : autoUpdateJobStatus,Chrome 128.0.0.0,,,19-09-2024 18:20:13,19-09-2024 18:20:13,0.001s,PASSED
+Video,Chrome 128.0.0.0,,,19-09-2024 18:20:17,19-09-2024 18:20:17,0.001s,PASSED

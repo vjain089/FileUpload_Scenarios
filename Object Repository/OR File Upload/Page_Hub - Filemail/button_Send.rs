@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>#sendBtn</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Send' or . = 'Send')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0265b74a-43b5-4b33-985b-b173adf888e3</webElementGuid>
+      <webElementGuid>4fcb397f-e26a-44f8-8d96-08c2aa04136c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +41,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>18dc231e-4e5a-4ea4-b8d9-aa1176df261c</webElementGuid>
+      <webElementGuid>642e23e4-27fc-492c-927c-b1c23d5a73dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>sendBtn</value>
-      <webElementGuid>0a911c3e-d6ff-4aeb-abc8-b549d522b701</webElementGuid>
+      <webElementGuid>d0af066c-998e-40b1-bb71-928b6994714c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button large blue btn btn-accentprimary explanation</value>
-      <webElementGuid>d7f3e8e7-0784-4e94-bfb2-7ee8bbadede9</webElementGuid>
+      <webElementGuid>753cfe3d-277c-4525-8311-3fba142cc761</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Send</value>
-      <webElementGuid>76e2ab86-c432-44b1-9878-3dabe845adc8</webElementGuid>
+      <webElementGuid>de03df5f-29e4-458f-b386-6ef3d978fd16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sendBtn&quot;)</value>
-      <webElementGuid>f74c46b7-08b9-4349-bc73-7234ccd7d1db</webElementGuid>
+      <webElementGuid>c53e7bde-48bb-4af1-a7a7-05ce22ffa9df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='sendBtn']</value>
-      <webElementGuid>9c91cd34-0786-4072-a3fd-4856118ba8aa</webElementGuid>
+      <webElementGuid>ff26e0df-5e2f-481f-bb2c-f41804b74eb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='filemailuploadercontainer']/div/button[4]</value>
-      <webElementGuid>a31a0931-f5dd-4547-a508-74c54b70b1c8</webElementGuid>
+      <webElementGuid>5dae9643-652a-4ebc-848d-6bc4fd43e73a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>83813728-7d14-4b43-8698-b812b3dc35fd</webElementGuid>
+      <webElementGuid>5e0b2c9a-a2bf-46c2-bb53-c25abd13c8d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Resume'])[1]/following::button[2]</value>
-      <webElementGuid>9a7cc9f2-8d4f-4529-8430-c213542f12a7</webElementGuid>
+      <webElementGuid>c49df6e3-ea32-45cb-904b-a2524eb83305</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Verification Required'])[1]/preceding::button[1]</value>
-      <webElementGuid>c8c018af-cbe7-4fee-a448-3c08551e7f68</webElementGuid>
+      <webElementGuid>37ed7dec-53db-4673-8a36-7e9d4b3850e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[4]</value>
-      <webElementGuid>34a51d66-d2de-46e5-8466-55da5515f24f</webElementGuid>
+      <webElementGuid>b89b9b4a-99db-4b22-a4c9-1722874441a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'sendBtn' and (text() = 'Send' or . = 'Send')]</value>
-      <webElementGuid>f0cff1e0-43f6-4017-938e-4e8cc7e78f0a</webElementGuid>
+      <webElementGuid>1ea5cc7b-252d-41b4-9355-031d1cf8b2a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

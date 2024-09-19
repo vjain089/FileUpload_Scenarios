@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Upload file Method" time="48.152" tests="2" failures="1" errors="0">
+   <testsuite name="TS_Upload file Method" tests="2" failures="1" errors="0" time="48.152" skipped="0" timestamp="19-09-2024T17:21:28" hostname="vaibhavjain - localhost" id="Test Suites/TS_Upload file Method">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/Reports/20240919_172123/TS_Upload file Method/20240919_172123"/>
+         <property name="logFiles" value="/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/Reports/20240919_172123/TS_Upload file Method/20240919_172123/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vaibhavjain - localhost"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;130.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;17aa24be-ac1d-4cc0-b04b-940e948491c3&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;executionSessionId&quot;: &quot;17aa24be-ac1d-4cc0-b04b-940e948491c3&quot;,&#xa;    &quot;userId&quot;: 1132117,&#xa;    &quot;organizationId&quot;: &quot;1107240&quot;,&#xa;    &quot;executionId&quot;: &quot;36a1be5a-20f7-4f78-bd98-37a377d17ae0&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;130.0.6683.2 (eb5bf4dd15f4ae83ebe030375ef5e642ec879323-refs/branch-heads/6683@{#5})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir8344_310899674&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;17aa24be-ac1d-4cc0-b04b-940e948491c3&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="325c8f4e7036d186c6666a754a9648b6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword" time="47.668" classname="Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to upload file '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' to object 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4117)&#xa;	at Upload a file using File Upload Keyword.run(Upload a file using File Upload Keyword:31)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726746683157.run(TempTestSuite1726746683157.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx&#xa;  (Session info: chrome=130.0.6683.2)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'Vaibhavs-MacBook-Pro.local', ip: '2405:201:3047:483e:c89c:a751:4465:ff6a%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver&#xa;Capabilities {LT:Options: {build: 17aa24be-ac1d-4cc0-b04b-940..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6683.2, chrome: {chromedriverVersion: 130.0.6683.2 (eb5bf4dd15f4a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:option: {apiKey: null, appId: null, deviceId: null, deviceVersion: null, executionId: 36a1be5a-20f7-4f78-bd98-37a..., executionSessionId: 17aa24be-ac1d-4cc0-b04b-940..., group: null, organizationId: 1107240, runFromTestCloud: true, teamId: null, tenant: null, tunnelMetadataId: null, userId: 1132117, usingTunnel: false}, kt:requestId: 17aa24be-ac1d-4cc0-b04b-940..., kt:rid: 17aa24be-ac1d-4cc0-b04b-940..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 325c8f4e7036d186c6666a754a9648b6&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[19-09-2024T17:21:28 - [TEST_CASE][FAILED] - Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword: Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' to object 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4117)
+	at Upload a file using File Upload Keyword.run(Upload a file using File Upload Keyword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726746683157.run(TempTestSuite1726746683157.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx
+  (Session info: chrome=130.0.6683.2)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Vaibhavs-MacBook-Pro.local', ip: '2405:201:3047:483e:c89c:a751:4465:ff6a%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {LT:Options: {build: 17aa24be-ac1d-4cc0-b04b-940..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6683.2, chrome: {chromedriverVersion: 130.0.6683.2 (eb5bf4dd15f4a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:option: {apiKey: null, appId: null, deviceId: null, deviceVersion: null, executionId: 36a1be5a-20f7-4f78-bd98-37a..., executionSessionId: 17aa24be-ac1d-4cc0-b04b-940..., group: null, organizationId: 1107240, runFromTestCloud: true, teamId: null, tenant: null, tunnelMetadataId: null, userId: 1132117, usingTunnel: false}, kt:requestId: 17aa24be-ac1d-4cc0-b04b-940..., kt:rid: 17aa24be-ac1d-4cc0-b04b-940..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 325c8f4e7036d186c6666a754a9648b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+19-09-2024T17:21:28 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T17:21:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=130, Tunnel=false
+
+19-09-2024T17:21:28 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T17:21:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-09-2024T17:21:29 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+19-09-2024T17:21:29 - [MESSAGE][INFO] - User set preference: ['browserVersion', '130']
+
+19-09-2024T17:21:29 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+19-09-2024T17:21:29 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1107240, usingTunnel=false}']
+
+19-09-2024T17:21:29 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+19-09-2024T17:21:29 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+19-09-2024T17:22:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-09-2024T17:22:03 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.guru99.com/test/upload/"): Navigate to 'http://demo.guru99.com/test/upload/' successfully
+
+19-09-2024T17:22:07 - [MESSAGE][PASSED] - Navigate to 'http://demo.guru99.com/test/upload/' successfully
+
+19-09-2024T17:22:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-09-2024T17:22:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-09-2024T17:22:12 - [TEST_STEP][PASSED] - dirName = getProjectDir(): null
+
+19-09-2024T17:22:12 - [TEST_STEP][PASSED] - println("Project Directory: " + dirName): null
+
+19-09-2024T17:22:12 - [TEST_STEP][FAILED] - uploadFile(findTestObject("OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0"), dirName + "/MyTestFile/TestData.xlsx"): Unable to upload file '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' to object 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' to object 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4117)
+	at Upload a file using File Upload Keyword.run(Upload a file using File Upload Keyword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726746683157.run(TempTestSuite1726746683157.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx
+  (Session info: chrome=130.0.6683.2)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Vaibhavs-MacBook-Pro.local', ip: '2405:201:3047:483e:c89c:a751:4465:ff6a%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {LT:Options: {build: 17aa24be-ac1d-4cc0-b04b-940..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6683.2, chrome: {chromedriverVersion: 130.0.6683.2 (eb5bf4dd15f4a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:option: {apiKey: null, appId: null, deviceId: null, deviceVersion: null, executionId: 36a1be5a-20f7-4f78-bd98-37a..., executionSessionId: 17aa24be-ac1d-4cc0-b04b-940..., group: null, organizationId: 1107240, runFromTestCloud: true, teamId: null, tenant: null, tunnelMetadataId: null, userId: 1132117, usingTunnel: false}, kt:requestId: 17aa24be-ac1d-4cc0-b04b-940..., kt:rid: 17aa24be-ac1d-4cc0-b04b-940..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 325c8f4e7036d186c6666a754a9648b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4117)
+	at Script1726648062828.run(Script1726648062828.groovy:31)
+	... 15 more
+)
+
+19-09-2024T17:22:16 - [MESSAGE][FAILED] - Unable to upload file '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' to object 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' to object 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4117)
+	at Upload a file using File Upload Keyword.run(Upload a file using File Upload Keyword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726746683157.run(TempTestSuite1726746683157.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx
+  (Session info: chrome=130.0.6683.2)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Vaibhavs-MacBook-Pro.local', ip: '2405:201:3047:483e:c89c:a751:4465:ff6a%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {LT:Options: {build: 17aa24be-ac1d-4cc0-b04b-940..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6683.2, chrome: {chromedriverVersion: 130.0.6683.2 (eb5bf4dd15f4a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:option: {apiKey: null, appId: null, deviceId: null, deviceVersion: null, executionId: 36a1be5a-20f7-4f78-bd98-37a..., executionSessionId: 17aa24be-ac1d-4cc0-b04b-940..., group: null, organizationId: 1107240, runFromTestCloud: true, teamId: null, tenant: null, tunnelMetadataId: null, userId: 1132117, usingTunnel: false}, kt:requestId: 17aa24be-ac1d-4cc0-b04b-940..., kt:rid: 17aa24be-ac1d-4cc0-b04b-940..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 325c8f4e7036d186c6666a754a9648b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4117)
+	at Script1726648062828.run(Script1726648062828.groovy:31)
+	... 15 more
+)
+
+19-09-2024T17:22:16 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=130, Tunnel=false
+
+19-09-2024T17:22:16 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=130, Tunnel=false]]></system-out>
+         <system-err><![CDATA[19-09-2024T17:21:28 - [TEST_CASE][FAILED] - Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword: Test Cases/TC File Upload - Kool Session/Upload a file using File Upload Keyword FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file '/Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx' to object 'Object Repository/OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4117)
+	at Upload a file using File Upload Keyword.run(Upload a file using File Upload Keyword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726746683157.run(TempTestSuite1726746683157.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/vaibhavjain/Katalon Studio/Katalon_fileupload_sample-master/MyTestFile/TestData.xlsx
+  (Session info: chrome=130.0.6683.2)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'Vaibhavs-MacBook-Pro.local', ip: '2405:201:3047:483e:c89c:a751:4465:ff6a%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {LT:Options: {build: 17aa24be-ac1d-4cc0-b04b-940..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6683.2, chrome: {chromedriverVersion: 130.0.6683.2 (eb5bf4dd15f4a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:option: {apiKey: null, appId: null, deviceId: null, deviceVersion: null, executionId: 36a1be5a-20f7-4f78-bd98-37a..., executionSessionId: 17aa24be-ac1d-4cc0-b04b-940..., group: null, organizationId: 1107240, runFromTestCloud: true, teamId: null, tenant: null, tunnelMetadataId: null, userId: 1132117, usingTunnel: false}, kt:requestId: 17aa24be-ac1d-4cc0-b04b-940..., kt:rid: 17aa24be-ac1d-4cc0-b04b-940..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 325c8f4e7036d186c6666a754a9648b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys" time="0.387" classname="Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys" status="PASSED">
+         <system-out><![CDATA[19-09-2024T17:22:16 - [TEST_CASE][PASSED] - Test Cases/TC File Upload - Kool Session/Upload multiple files using Send Keys: [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=130, Tunnel=false
+
+19-09-2024T17:22:16 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T17:22:16 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=130, Tunnel=false
+
+19-09-2024T17:22:16 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T17:22:16 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=130, Tunnel=false
+
+19-09-2024T17:22:16 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - Windows, Chrome, version=130, Tunnel=false]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-09-2024T17:21:28 - [TEST_SUITE][INCOMPLETE] - TS_Upload file Method: null]]></system-out>
+      <system-err><![CDATA[19-09-2024T17:21:28 - [TEST_SUITE][INCOMPLETE] - TS_Upload file Method: null]]></system-err>
+   </testsuite>
+</testsuites>

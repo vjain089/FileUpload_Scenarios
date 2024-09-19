@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file Method - Drag and Drop,Chrome 128.0.0.0,,,19-09-2024 19:06:52,19-09-2024 19:07:18,25.639s,PASSED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/Upload a file using Upload file with Drag and Drop,Chrome 128.0.0.0,,,19-09-2024 19:06:52,19-09-2024 19:07:18,25.566s,PASSED
+Start listener action : enableSauceLabs,Chrome 128.0.0.0,,,19-09-2024 19:06:52,19-09-2024 19:06:52,0.006s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,19-09-2024 19:06:52,19-09-2024 19:06:54,2.227s,PASSED
+"navigateToUrl(""https://imgur.com/upload?beta"")",Chrome 128.0.0.0,,,19-09-2024 19:06:54,19-09-2024 19:07:00,5.462s,PASSED
+driver = getWebDriver(),Chrome 128.0.0.0,,,19-09-2024 19:07:00,19-09-2024 19:07:00,0.009s,PASSED
+wrappedDriver = driver.getWrappedDriver(),Chrome 128.0.0.0,,,19-09-2024 19:07:00,19-09-2024 19:07:00,0.008s,PASSED
+if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver),Chrome 128.0.0.0,,,19-09-2024 19:07:00,19-09-2024 19:07:00,0.014s,PASSED
+"filePath = getProjectDir() + ""/Katalon-Devices.JPG""",Chrome 128.0.0.0,,,19-09-2024 19:07:00,19-09-2024 19:07:00,0.002s,PASSED
+"filePath1 = getProjectDir() + ""/Katalon-Devices 1.JPG""",Chrome 128.0.0.0,,,19-09-2024 19:07:00,19-09-2024 19:07:00,0.002s,PASSED
+"filePath2 = getProjectDir() + ""/Katalon-Devices 2.JPG""",Chrome 128.0.0.0,,,19-09-2024 19:07:00,19-09-2024 19:07:00,0.002s,PASSED
+"concatenatedFilePath = filePath + ""
+"" + filePath1 + ""
+"" + filePath2",Chrome 128.0.0.0,,,19-09-2024 19:07:00,19-09-2024 19:07:00,0.002s,PASSED
+uploadFileWithDragAndDrop(concatenatedFilePath),Chrome 128.0.0.0,,,19-09-2024 19:07:00,19-09-2024 19:07:03,3.073s,PASSED
+delay(10),Chrome 128.0.0.0,,,19-09-2024 19:07:03,19-09-2024 19:07:13,10.027s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,19-09-2024 19:07:13,19-09-2024 19:07:13,0.004s,NOT_RUN
+Start listener action : autoUpdateJobStatus,Chrome 128.0.0.0,,,19-09-2024 19:07:13,19-09-2024 19:07:13,0.002s,PASSED
+Video,Chrome 128.0.0.0,,,19-09-2024 19:07:18,19-09-2024 19:07:18,0.001s,PASSED

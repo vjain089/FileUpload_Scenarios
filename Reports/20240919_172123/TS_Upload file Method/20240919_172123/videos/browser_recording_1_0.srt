@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("http://demo.guru99.com/test/upload/")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. delay(5)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. dirName = getProjectDir()
+
+5
+00:00:00,000 --> 00:00:00,000
+17. println("Project Directory: " + dirName)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. uploadFile(findTestObject("OR File Upload/Page_File Upload Demo/input_Page-6_uploadfile_0"), dirName + "/MyTestFile/TestData.xlsx")
+
