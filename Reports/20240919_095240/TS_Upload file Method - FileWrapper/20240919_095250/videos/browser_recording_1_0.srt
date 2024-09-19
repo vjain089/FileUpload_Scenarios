@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,089
+5. maximizeWindow()
+
+3
+00:00:00,092 --> 00:00:00,190
+9. driver = getWebDriver()
+
+4
+00:00:00,192 --> 00:00:00,260
+13. wrappedDriver = driver.getWrappedDriver()
+
+5
+00:00:00,262 --> 00:00:00,370
+17. if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver)
+
+6
+00:00:00,371 --> 00:00:00,380
+21. dirName = getProjectDir()
+
+7
+00:00:00,382 --> 00:00:00,428
+25. println("Project Directory: " + dirName)
+
+8
+00:00:00,429 --> 00:00:00,433
+29. filePath = docx)).getCanonicalPath()
+
+9
+00:00:00,434 --> 00:00:16,207
+33. navigateToUrl("https://www.filemail.com")
+
+10
+00:00:16,210 --> 00:00:46,820
+37. click(findTestObject("OR File Upload/Page_Send Large Files Free - Fast Secure File Transfer - Filemail/a_Log in"))
+
+11
+00:00:46,821 --> 00:01:44,069
+41. setText(findTestObject("OR File Upload/Page_Login - Filemail - Filemail/input_Email_Email"), "vjain089@gmail.com")
+
+12
+00:01:44,075 --> 00:02:06,326
+45. setEncryptedText(findTestObject("OR File Upload/Page_Login - Filemail - Filemail/input_Password_Password"), "l4rHfn9ZkQZikqoROYKz3g==")
+
+13
+00:02:06,327 --> 00:02:10,980
+49. click(findTestObject("OR File Upload/Page_Login - Filemail - Filemail/button_Log in"))
+
+14
+00:02:10,980 --> 00:02:13,017
+53. delay(2)
+
+15
+00:02:13,018 --> 00:02:56,575
+57. setText(findTestObject("OR File Upload/Page_Hub - Filemail/input_Transfer in progress_ui-widget-conten_9e29d3"), "vaibhav.jain@katalon.com")
+
+16
+00:02:56,576 --> 00:03:04,194
+61. click(findTestObject("OR File Upload/Page_Hub - Filemail/div_Send as emailSend as linkTransfer in pr_17b1aa"))
+
+17
+00:03:04,195 --> 00:03:11,025
+65. setText(findTestObject("OR File Upload/Page_Hub - Filemail/input_Transfer in progress_FilemailSubject"), "Demo")
+
+18
+00:03:11,026 --> 00:03:17,116
+69. uploadFile(findTestObject("OR File Upload/Page_Hub - Filemail/label_Add Files"), filePath)
+
+19
+00:03:17,116 --> 00:03:22,130
+73. delay(5)
+
+20
+00:03:22,131 --> 00:03:22,285
+77. scrollToElement(findTestObject("OR File Upload/Page_Hub - Filemail/button_Send"), 0)
+
+21
+00:03:22,287 --> 00:03:59,647
+81. click(findTestObject("OR File Upload/Page_Hub - Filemail/button_Send"))
+

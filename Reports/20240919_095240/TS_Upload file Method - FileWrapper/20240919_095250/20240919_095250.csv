@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Upload file Method - FileWrapper,Chrome 128.0.0.0,,,19-09-2024 09:53:00,19-09-2024 09:57:53,4m - 53.157s,FAILED
+,,,,,,,
+Test Cases/TC File Upload - Kool Session/File_Upload - FileWrapper,Chrome 128.0.0.0,,,19-09-2024 09:53:00,19-09-2024 09:57:53,4m - 52.776s,FAILED
+Start listener action : enableSauceLabs,Chrome 128.0.0.0,,,19-09-2024 09:53:01,19-09-2024 09:53:01,0.031s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,19-09-2024 09:53:01,19-09-2024 09:53:17,15.603s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,19-09-2024 09:53:17,19-09-2024 09:53:17,0.546s,PASSED
+driver = getWebDriver(),Chrome 128.0.0.0,,,19-09-2024 09:53:17,19-09-2024 09:53:17,0.095s,PASSED
+wrappedDriver = driver.getWrappedDriver(),Chrome 128.0.0.0,,,19-09-2024 09:53:17,19-09-2024 09:53:17,0.064s,PASSED
+if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver),Chrome 128.0.0.0,,,19-09-2024 09:53:17,19-09-2024 09:53:17,0.108s,PASSED
+dirName = getProjectDir(),Chrome 128.0.0.0,,,19-09-2024 09:53:17,19-09-2024 09:53:17,0.008s,PASSED
+"println(""Project Directory: "" + dirName)",Chrome 128.0.0.0,,,19-09-2024 09:53:17,19-09-2024 09:53:18,0.042s,PASSED
+filePath = docx)).getCanonicalPath(),Chrome 128.0.0.0,,,19-09-2024 09:53:18,19-09-2024 09:53:18,0.004s,PASSED
+"navigateToUrl(""https://www.filemail.com"")",Chrome 128.0.0.0,,,19-09-2024 09:53:18,19-09-2024 09:53:33,15.775s,PASSED
+"click(findTestObject(""OR File Upload/Page_Send Large Files Free - Fast Secure File Transfer - Filemail/a_Log in""))",Chrome 128.0.0.0,,,19-09-2024 09:53:33,19-09-2024 09:54:04,30.609s,PASSED
+"setText(findTestObject(""OR File Upload/Page_Login - Filemail - Filemail/input_Email_Email""), ""vjain089@gmail.com"")",Chrome 128.0.0.0,,,19-09-2024 09:54:04,19-09-2024 09:55:01,57.263s,PASSED
+"setEncryptedText(findTestObject(""OR File Upload/Page_Login - Filemail - Filemail/input_Password_Password""), ""l4rHfn9ZkQZikqoROYKz3g=="")",Chrome 128.0.0.0,,,19-09-2024 09:55:01,19-09-2024 09:55:23,22.236s,PASSED
+"click(findTestObject(""OR File Upload/Page_Login - Filemail - Filemail/button_Log in""))",Chrome 128.0.0.0,,,19-09-2024 09:55:23,19-09-2024 09:55:28,4.653s,PASSED
+delay(2),Chrome 128.0.0.0,,,19-09-2024 09:55:28,19-09-2024 09:55:30,2.036s,PASSED
+"setText(findTestObject(""OR File Upload/Page_Hub - Filemail/input_Transfer in progress_ui-widget-conten_9e29d3""), ""vaibhav.jain@katalon.com"")",Chrome 128.0.0.0,,,19-09-2024 09:55:30,19-09-2024 09:56:14,43.562s,PASSED
+"click(findTestObject(""OR File Upload/Page_Hub - Filemail/div_Send as emailSend as linkTransfer in pr_17b1aa""))",Chrome 128.0.0.0,,,19-09-2024 09:56:14,19-09-2024 09:56:21,7.614s,PASSED
+"setText(findTestObject(""OR File Upload/Page_Hub - Filemail/input_Transfer in progress_FilemailSubject""), ""Demo"")",Chrome 128.0.0.0,,,19-09-2024 09:56:21,19-09-2024 09:56:28,6.836s,PASSED
+"uploadFile(findTestObject(""OR File Upload/Page_Hub - Filemail/label_Add Files""), filePath)",Chrome 128.0.0.0,,,19-09-2024 09:56:28,19-09-2024 09:56:34,6.081s,PASSED
+delay(5),Chrome 128.0.0.0,,,19-09-2024 09:56:34,19-09-2024 09:56:39,5.014s,PASSED
+"scrollToElement(findTestObject(""OR File Upload/Page_Hub - Filemail/button_Send""), 0)",Chrome 128.0.0.0,,,19-09-2024 09:56:39,19-09-2024 09:56:39,0.156s,PASSED
+"click(findTestObject(""OR File Upload/Page_Hub - Filemail/button_Send""))",Chrome 128.0.0.0,,,19-09-2024 09:56:39,19-09-2024 09:57:17,37.148s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 128.0.0.0,,,19-09-2024 09:57:17,19-09-2024 09:57:17,0.014s,PASSED
+Video,Chrome 128.0.0.0,,,19-09-2024 09:57:53,19-09-2024 09:57:53,0.023s,PASSED

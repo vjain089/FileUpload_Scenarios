@@ -1,16 +1,33 @@
-import java.awt.Robot
+import java.awt.*;
+import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection
 import java.awt.event.KeyEvent
 
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.remote.LocalFileDetector
+import org.openqa.selenium.support.events.EventFiringWebDriver
+
 import com.kms.katalon.core.configuration.RunConfiguration
-
-import java.awt.*;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
-import java.util.concurrent.TimeUnit;
+import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.selenium.driver.CRemoteWebDriver
 
 
+
+
+EventFiringWebDriver driver = DriverFactory.getWebDriver()
+
+WebDriver wrappedDriver = driver.getWrappedDriver()
+
+if (wrappedDriver.class == CRemoteWebDriver) {
+	wrappedDriver.setFileDetector(new LocalFileDetector()) /*
+*  Set the file detector for the remote web driver.
+*
+*  1. Initialize an EventFiringWebDriver using DriverFactory.
+*  2. Get the wrapped WebDriver from the EventFiringWebDriver.
+*  3. Check if the wrapped driver is an instance of CRemoteWebDriver and set the file detector to LocalFileDetector.
+*
+*/
+}
 //Must Read
 //Before runnig this script copy the file path path you want to uplaod.
 
@@ -27,13 +44,13 @@ clipboard.setContents(stringSelection, null);
 Robot robot = new Robot()
 
 // Cmd + Tab is needed since it launches a Java app and the browser looses focus
-robot.keyPress(KeyEvent.VK_META)
+/*robot.keyPress(KeyEvent.VK_META)
 
 robot.keyPress(KeyEvent.VK_TAB)
 
 robot.keyRelease(KeyEvent.VK_META)
 
-robot.keyRelease(KeyEvent.VK_TAB)
+robot.keyRelease(KeyEvent.VK_TAB)*/
 
 robot.delay(5000)
 
