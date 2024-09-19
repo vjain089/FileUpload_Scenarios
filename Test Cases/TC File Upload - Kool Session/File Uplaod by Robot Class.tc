@@ -4,5 +4,6 @@
    <name>File Uplaod by Robot Class</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5cef4a1b-f1f3-467b-b9c6-644dcccc7ff9</testCaseGuid>
 </TestCaseEntity>

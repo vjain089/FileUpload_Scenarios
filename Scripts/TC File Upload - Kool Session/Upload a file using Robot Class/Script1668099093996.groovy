@@ -11,7 +11,7 @@ WebUI.maximizeWindow()
 
 WebUI.clickOffset(findTestObject('OR File Upload/Page_Multiple Uploads Sample/input_Upload multiple_File'), 0, 0)
 
-WebUI.callTestCase(findTestCase('TC File Upload/File Uplaod by Robot Class'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC File Upload - Kool Session/File Uplaod by Robot Class'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(10)
 

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Upload file Method - FileWrapper" time="41.934" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Upload file Method - FileWrapper" tests="1" failures="0" errors="0" time="41.934" skipped="0" timestamp="19-09-2024T01:35:46" hostname="vaibhavjain - localhost" id="Test Suites/TS_Upload file Method - FileWrapper">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/Reports/20240919_013539/TS_Upload file Method - FileWrapper/20240919_013540"/>
+         <property name="logFiles" value="/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/Reports/20240919_013539/TS_Upload file Method - FileWrapper/20240919_013540/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vaibhavjain - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.1.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="e2d103a3ec34440ab34767dcd1109eb1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC File Upload - Kool Session/File_Upload - FileWrapper" time="41.849" classname="Test Cases/TC File Upload - Kool Session/File_Upload - FileWrapper" status="PASSED">
+         <system-out><![CDATA[19-09-2024T01:35:46 - [TEST_CASE][PASSED] - Test Cases/TC File Upload - Kool Session/File_Upload - FileWrapper: Test Cases/TC File Upload - Kool Session/File_Upload - FileWrapper
+
+19-09-2024T01:35:46 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T01:35:46 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T01:35:46 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-09-2024T01:35:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-09-2024T01:35:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-09-2024T01:35:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-09-2024T01:35:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-09-2024T01:35:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-09-2024T01:35:50 - [MESSAGE][PASSED] - Current window maximized
+
+19-09-2024T01:35:50 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+19-09-2024T01:35:50 - [TEST_STEP][PASSED] - wrappedDriver = driver.getWrappedDriver(): null
+
+19-09-2024T01:35:50 - [TEST_STEP][PASSED] - if (class == com.kms.katalon.selenium.driver.CRemoteWebDriver): null
+
+19-09-2024T01:35:50 - [TEST_STEP][PASSED] - dirName = getProjectDir(): null
+
+19-09-2024T01:35:50 - [TEST_STEP][PASSED] - println("Project Directory: " + dirName): null
+
+19-09-2024T01:35:50 - [TEST_STEP][PASSED] - filePath = docx)).getCanonicalPath(): null
+
+19-09-2024T01:35:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.filemail.com"): Navigate to 'https://www.filemail.com' successfully
+
+19-09-2024T01:35:55 - [MESSAGE][PASSED] - Navigate to 'https://www.filemail.com' successfully
+
+19-09-2024T01:35:55 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_Send Large Files Free - Fast Secure File Transfer - Filemail/a_Log in")): Object: 'Object Repository/OR File Upload/Page_Send Large Files Free - Fast Secure File Transfer - Filemail/a_Log in' is clicked on
+
+19-09-2024T01:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_Send Large Files Free - Fast Secure File Transfer - Filemail/a_Log in' is clicked on
+
+19-09-2024T01:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("OR File Upload/Page_Login - Filemail - Filemail/input_Email_Email"), "vjain089@gmail.com"): Text 'vjain089@gmail.com' is set on object 'Object Repository/OR File Upload/Page_Login - Filemail - Filemail/input_Email_Email'
+
+19-09-2024T01:36:00 - [MESSAGE][PASSED] - Text 'vjain089@gmail.com' is set on object 'Object Repository/OR File Upload/Page_Login - Filemail - Filemail/input_Email_Email'
+
+19-09-2024T01:36:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OR File Upload/Page_Login - Filemail - Filemail/input_Password_Password"), "l4rHfn9ZkQZikqoROYKz3g=="): Text ****** has been set on object 'Object Repository/OR File Upload/Page_Login - Filemail - Filemail/input_Password_Password'
+
+19-09-2024T01:36:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OR File Upload/Page_Login - Filemail - Filemail/input_Password_Password'
+
+19-09-2024T01:36:00 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_Login - Filemail - Filemail/button_Log in")): Object: 'Object Repository/OR File Upload/Page_Login - Filemail - Filemail/button_Log in' is clicked on
+
+19-09-2024T01:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_Login - Filemail - Filemail/button_Log in' is clicked on
+
+19-09-2024T01:36:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-09-2024T01:36:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-09-2024T01:36:03 - [TEST_STEP][PASSED] - setText(findTestObject("OR File Upload/Page_Hub - Filemail/input_Transfer in progress_ui-widget-conten_9e29d3"), "vaibhav.jain@katalon.com"): Text 'vaibhav.jain@katalon.com' is set on object 'Object Repository/OR File Upload/Page_Hub - Filemail/input_Transfer in progress_ui-widget-conten_9e29d3'
+
+19-09-2024T01:36:09 - [MESSAGE][PASSED] - Text 'vaibhav.jain@katalon.com' is set on object 'Object Repository/OR File Upload/Page_Hub - Filemail/input_Transfer in progress_ui-widget-conten_9e29d3'
+
+19-09-2024T01:36:09 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_Hub - Filemail/div_Send as emailSend as linkTransfer in pr_17b1aa")): Object: 'Object Repository/OR File Upload/Page_Hub - Filemail/div_Send as emailSend as linkTransfer in pr_17b1aa' is clicked on
+
+19-09-2024T01:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_Hub - Filemail/div_Send as emailSend as linkTransfer in pr_17b1aa' is clicked on
+
+19-09-2024T01:36:10 - [TEST_STEP][PASSED] - setText(findTestObject("OR File Upload/Page_Hub - Filemail/input_Transfer in progress_FilemailSubject"), "Demo"): Text 'Demo' is set on object 'Object Repository/OR File Upload/Page_Hub - Filemail/input_Transfer in progress_FilemailSubject'
+
+19-09-2024T01:36:14 - [MESSAGE][PASSED] - Text 'Demo' is set on object 'Object Repository/OR File Upload/Page_Hub - Filemail/input_Transfer in progress_FilemailSubject'
+
+19-09-2024T01:36:14 - [TEST_STEP][PASSED] - uploadFile(findTestObject("OR File Upload/Page_Hub - Filemail/label_Add Files"), filePath): File '/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/MyTestFile/Technical Proposal Template V.1 (2) (002).docx' sent to object: 'Object Repository/OR File Upload/Page_Hub - Filemail/label_Add Files'
+
+19-09-2024T01:36:14 - [MESSAGE][PASSED] - File '/Users/vaibhavjain/Downloads/Katalon_fileupload_sample-master/MyTestFile/Technical Proposal Template V.1 (2) (002).docx' sent to object: 'Object Repository/OR File Upload/Page_Hub - Filemail/label_Add Files'
+
+19-09-2024T01:36:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+19-09-2024T01:36:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+19-09-2024T01:36:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OR File Upload/Page_Hub - Filemail/button_Send"), 0): Scroll to object 'Object Repository/OR File Upload/Page_Hub - Filemail/button_Send' successfully
+
+19-09-2024T01:36:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-09-2024T01:36:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OR File Upload/Page_Hub - Filemail/button_Send' successfully
+
+19-09-2024T01:36:20 - [TEST_STEP][PASSED] - click(findTestObject("OR File Upload/Page_Hub - Filemail/button_Send")): Object: 'Object Repository/OR File Upload/Page_Hub - Filemail/button_Send' is clicked on
+
+19-09-2024T01:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OR File Upload/Page_Hub - Filemail/button_Send' is clicked on
+
+19-09-2024T01:36:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-09-2024T01:36:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-09-2024T01:36:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("OR File Upload/Page_Hub - Filemail/a_Log out")): NOT_RUN: click(findTestObject("OR File Upload/Page_Hub - Filemail/a_Log out"))
+
+19-09-2024T01:36:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OR File Upload/Page_Hub - Filemail/a_Log out"))
+
+19-09-2024T01:36:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("OR File Upload/Page_Hub - Filemail/button_Yes")): NOT_RUN: click(findTestObject("OR File Upload/Page_Hub - Filemail/button_Yes"))
+
+19-09-2024T01:36:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OR File Upload/Page_Hub - Filemail/button_Yes"))
+
+19-09-2024T01:36:28 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+19-09-2024T01:36:28 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-09-2024T01:35:46 - [TEST_SUITE][PASSED] - TS_Upload file Method - FileWrapper: Test Cases/TC File Upload - Kool Session/File_Upload - FileWrapper]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

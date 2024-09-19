@@ -4,5 +4,6 @@
    <name>Upload a file using Robot Class</name>
    <tag>sanity</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>77b523fd-8674-4d70-a8d0-974212b87337</testCaseGuid>
 </TestCaseEntity>
